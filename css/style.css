@@ -1,1 +1,103 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap');
+
+:root{
+    --color-heading:#092032;
+    --color-paragraph:#516171;
+    --color-main:#ff4d29;
+    --color-main-hover:#e04122;
+}
+
+body{
+    font-family: "Barlow", sans-serif;
+    line-height: 1.7;
+    color: var(--color-paragraph);
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: 700 !important;
+    color: var(--color-heading);
+}
+
+a{
+    color: var(--color-heading);
+    text-decoration: none;
+    transition: all 0.4s ease;
+    font-weight: 500 !important;
+}
+
+img{
+    width: 100%;
+}
+
+/* navbar start */
+.top-nav{
+    background-color: var(--color-main);
+    padding: 5px 0px;
+}
+
+.top-nav p{
+    margin-bottom: 0;
+    display: inline;
+    margin-right: 16px;
+    color: #ffffff;
+}
+
+.top-nav i, .top-nav span{
+    vertical-align: middle;
+}
+
+.top-nav .social-links a{
+    width: 34px;
+    height: 34px;
+    background-color: rgba(255, 255, 255, 0.3);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 100%;
+}
+
+.top-nav .social-links a:hover{
+    background-color: #ffffff;
+    color: var(--color-main);
+}
+
+.navbar{
+    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+}
+
+.navbar .navbar-nav .nav-link:hover, .navbar .navbar-nav .nav-link:active{
+    color: var(--color-main);
+}
+
+.navbar .navbar-brand{
+    font-weight: 700;
+    font-size: 26px;
+    color: var(--color-heading);
+}
+
+.navbar .navbar-brand span{
+    color: var(--color-main);
+}
+
+/* btn start */
+.btn{
+    padding: 9px 24px;
+    font-weight: 500;
+}
+
+.btn-brand{
+    background-color: var(--color-main);
+    color: #ffffff;
+    border-color: var(--color-main);
+}
+
+.btn-brand:hover{
+    color: #ffffff;
+    background-color: var(--color-main-hover);
+    border-color: var(--color-main-hover);
+}
+/* btn end */
+
+/* navbar end */
