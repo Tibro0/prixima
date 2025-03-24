@@ -181,8 +181,20 @@ section{
     border-radius: 300px;
     border: 5px solid var(--color-main);
 }
-
-
 /* info-box end */
 
 /* About End */
+
+/* Milestone Start */
+#milestone{
+    background: linear-gradient(rgba(255, 77, 41, 0.9), rgba(255, 77, 41, 0.9)), url(../images/bg-banner1.jpg);
+}
+
+#milestone .display-4, #milestone p{
+    color: #ffffff;
+}
+
+#milestone .display-4{
+    font-weight: 700;
+}
+/* Milestone End */
