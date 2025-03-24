@@ -29,6 +29,10 @@ img{
     width: 100%;
 }
 
+section{
+    padding: 80px 0px;
+}
+
 .bg-cover{
     background-position: center !important;
     background-size: cover !important;
@@ -120,6 +124,10 @@ img{
     background: linear-gradient(rgba(9, 32, 50, 0.4),rgba(9, 32, 50, 0.4)), url(../images/bg-banner2.jpg);
 }
 
+.slide3{
+    background: linear-gradient(rgba(9, 32, 50, 0.4),rgba(9, 32, 50, 0.4)), url(../images/bg-banner3.jpg);
+}
+
 /* owl carousel start */
 .owl-prev, .owl-next{
     position: absolute;
@@ -150,3 +158,31 @@ img{
 /* owl carousel end */
 
 /* slider end */
+
+/* About Start */
+
+/* info-box start */
+.info-box {
+    display: flex;
+    align-items: centers;
+}
+
+.info-box img{
+    width: 90px;
+    height: 90px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 70px;
+    margin-right: 24px;
+}
+
+.about-img{
+    border-radius: 300px;
+    border: 5px solid var(--color-main);
+}
+
+
+/* info-box end */
+
+/* About End */
