@@ -38,6 +38,20 @@ section{
     background-size: cover !important;
 }
 
+.intro{
+    margin-bottom: 40px;
+}
+
+.intro h6{
+    font-weight: 400;
+    color: var(--color-main);
+}
+
+.intro p{
+    max-width: 500px;
+    margin: auto;
+}
+
 /* navbar start */
 .top-nav{
     background-color: var(--color-main);
@@ -198,3 +212,25 @@ section{
     font-weight: 700;
 }
 /* Milestone End */
+
+/* Services Start */
+.service-box{
+    padding: 32px;
+    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+.service-box img{
+    width: 90px;
+    height: 90px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 70px;
+}
+
+.service-box h5{
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+/* Services End */
