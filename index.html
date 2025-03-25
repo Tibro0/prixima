@@ -68,7 +68,8 @@
                         <a class="nav-link" href="#blog">Blog</a>
                     </li>
                 </ul>
-                <a href="#" class="btn btn-brand ms-lg-3">Contact Us</a>
+                <a href="#" class="btn btn-brand ms-lg-3" data-bs-toggle="modal" data-bs-target="#exampleModal">Contact
+                    Us</a>
             </div>
         </div>
     </nav>
@@ -502,6 +503,60 @@
         </div>
     </footer>
     <!-- Footer End -->
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body p-0">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-4 bg-cover"
+                                style="background-image: url(./images/bg-banner1.jpg); min-height: 300px;"></div>
+                            <div class="col-lg-8">
+                                <form action="" class="row p-lg-5 gy-3">
+                                    <div class="col-12">
+                                        <h1>Get In Touch</h1>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
+                                            perspiciatis
+                                            et
+                                            amet!</p>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <label for="exampleFormControlInput1" class="form-label">First Name</label>
+                                        <input type="text" class="form-control" id="exampleFormControlInput1"
+                                            placeholder="Jon">
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <label for="exampleFormControlInput1" class="form-label">Last Name</label>
+                                        <input type="text" class="form-control" id="exampleFormControlInput1"
+                                            placeholder="Doe">
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="exampleFormControlInput1" class="form-label">Email</label>
+                                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                                            placeholder="Jondoe@gmail.com">
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="exampleFormControlInput1" class="form-label">Message</label>
+                                        <textarea name="" cols="30" rows="4" class="form-control"
+                                            placeholder="Wow, You guys are Amazing!"></textarea>
+                                    </div>
+                                    <div class="col-12">
+                                        <button type="button" class="btn btn-brand">Send Message</button>
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
 
 
     <!-- jquery js link -->

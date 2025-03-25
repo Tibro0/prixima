@@ -434,3 +434,10 @@ footer .social-links a{
     margin-right: 5px;
 }
 /* Footer End */
+
+/* Form Start */
+.form-control:focus{
+    box-shadow: none;
+    border-color: var(--color-main);
+}
+/* Form End */
