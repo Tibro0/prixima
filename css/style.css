@@ -327,3 +327,37 @@ section{
 
 }
 /* Team End */
+
+/* Review Start */
+#reviews{
+    background: linear-gradient(rgba(9, 32, 50, 0.8),rgba(9, 32, 50, 0.8)), url(../images/bg-banner1.jpg);
+}
+
+.review{
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+}
+
+.review img{
+    width: 85px !important;
+    border-radius: 100px;
+    margin: auto;
+}
+
+.review h4{
+    margin-top: 24px;
+}
+
+.review h4, .review p{
+    color: #ffffff;
+}
+
+.review small{
+    color: var(--color-main);
+}
+
+.review p{
+    margin-top: 28px;
+}
+/* Review End */
